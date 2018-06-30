@@ -36,7 +36,7 @@ def isUp(): #checks if stock closed higher than it opened
 		return True
 
 def LED():
-	if isUP():
+	if isUp():
 		GPIO.output(15, True)
 	else:
 		GPIO.output(3,True)	

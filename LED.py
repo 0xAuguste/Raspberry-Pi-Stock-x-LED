@@ -12,7 +12,7 @@ url = "https://www.alphavantage.co/query" #API
 
 function = "TIME_SERIES_DAILY" #specifies daily queries
 symbol = "TSLA" #Tesla
-api_key = "2CA60174FYOCPHAM"
+api_key = #[INPUT]
 
 data = { "function": function, 
          "symbol": symbol, 
